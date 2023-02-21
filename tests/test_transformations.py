@@ -7,3 +7,6 @@ def test_add_offset():
     expected = augend + addend
     obtained = dt.add_offset(augend, addend)
     assert expected == obtained
+
+birds = [ "guacamaya", "ringo", "ave azul", "mirlo cuatro patas"]
+print(birds)
